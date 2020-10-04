@@ -1,0 +1,209 @@
+# showcase
+
+
+showcase:
+  enable: true
+  title: "Hello, I’m Tara."
+  subtitle: "Product Manager | Product Marketer"
+  description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+  image:
+    x: "img/showcase/pmm_image.png"
+    _2x: "img/showcase/pmm_image@2x.png"
+  imageMobile:
+    x: "img/showcase/pmm_image-mobile.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://radity.com/en/contact/"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/company/radity/"
+
+    - icon: "github"
+      URL: "https://github.com/radity"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/raditycom/"
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '
+  <p class="lead">
+    I’m a product enthusiast driven by process automation and turning customer problems
+    into actionable solutions via product messaging and product positioning. I have a mix of marketing,
+    sales and technical skills. I have certifications in Pragmatic Marketing (Level III) and Scrum Ownership.
+    </p>
+    <p class="lead">
+    I volunteer with STEM Like a Girl, a non-profit dedicated to inspiring young girls develop interest in STEM
+    through hands-on activities and parent engagement, and my alma-mater Olin College of Engineering.
+    </p>
+    <p class="lead">
+    I also enjoy trail running at Lief Erickson, taking barre3 classes, and learning to cook south Indian food from Madras Samayal.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/company/radity/"
+  image:
+    x: "img/who-am-i/user-picture.jpeg"
+    _2x: "img/who-am-i/user-picture@2x.jpeg"
+#
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Olin College of Engineering"
+      year: "2009-2013"
+      degree: "Bachelor of Science (BS), Electrical and Computer Engineering"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/company/radity/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Product Manager"
+      company: "Puppet"
+      duration: "September 2019 - April 2020"
+
+    - title: "Product Marketer"
+      company: "Jama Software"
+      duration: "June 2018 - May 2019"
+
+    - title: "Inside Sales Representative"
+      company: "Global Foundries/IBM"
+      duration: "August 2013 - July 2017"
+
+# Personal Project
+client_and_work:
+  title: "Projects"
+  enable: true
+
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+  #  "helloe"
+    - title: "Banter"
+      description: "An alumni-student mentorship program which provides students with the connections and support they need to succeed "
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/banter_image.png"
+        _2x: "img/works/banter_image@2x.png"
+      is_even: true
+
+    - title: "MedAlarm"
+      description: "Flutter application that reminds a user when to take their medicine, what medicine to take and ensures that the user is taking the correct dosage through image-based validation"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/medalarm_image.png"
+        _2x: "img/works/medalarm_image@2x.png"
+      is_even: false
+
+    - title: "Decipher Videos with Bots"
+      description: "AWS Lambda function which transcribes mp4 videos into text, benefiting those needing to quickly transcribe videos, filter video content on keywords, and add text to existing videos."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      # image:
+      #   x: "img/works/Demo.mp4"
+      #   _2x: "img/works/Demo@2x.mp4"
+      # is_even: true
+
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+    - name: "Dave Shanley"
+      position: "Phonet, CEO"
+      content: "I highly recommend Tara. Her strong sense of ownership, high level of organization, and desire to continually learn meant that she meshed seamlessly with our deeply experienced Product Marketing team and ran independently with several significant initiatives while also supporting the efforts of the larger group...she launched add-ons for our flagship product, wrote several blog posts including all the background research, and wrapped up positioning for a significant area of our product. Tara brings a hard-to-find mix of market awareness, technical knowledge, and a desire to learn along with a can-do attitude and perseverance. She's a delight to work with and would be a great addition to any team.
+"
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Francis Rajan"
+      position: "Cyberse, CEO"
+      content: "Tara demonstrated strong product and project management skills and leveraged her leadership capabilities to ensure that issues were quickly resolved. She has a pleasant personality and used it to her advantage to team with cross functional groups and put strategies in place that contemplated various scenarios and identified paths to problem resolution. As a mentor, I have witnessed Tara grow from her early years in IBM to a strong and confident individual with a vision for her career. I am confident that Tara will succeed in her future endeavors and I highly recommend her for any opportunities she wants to pursue."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "(541) 231 9176"
+  email:
+    title: "Email"
+    email: '<a href="mailto:krishnantara@gmail.com">krishnantara@gmail.com</a>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
